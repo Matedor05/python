@@ -1,0 +1,5 @@
+print("Adja meg a nevét")
+name = str(input())
+print("Adja meg a magasságát")
+height = str(input())
+print(f"{name} az ön magassága {height}cm")
