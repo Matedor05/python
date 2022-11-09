@@ -6,6 +6,6 @@ num1=int(input())
 num2=int(input())
 
 if(num1 > num2):
-    print("Az első szám nagyobb mint a másik")
+    print("Az első szám a nagyobb")
 elif(num2 > num1):
-    print("")
+    print("A második szám a nagyobb")
