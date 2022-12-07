@@ -4,17 +4,17 @@ b:int=None
 ertekek:str=None
 
 
-print("Adjon meg két ellenállás értékét és a kötést")
+print("Adja meg a téglalap oladalainak hosszát és hogy mit szeretne kiszámolni")
 a=int(input())
 b=int(input())
-ertekek=str(input())
+ertekek=str(input().lower().strip())
 
 
 
 match ertekek:
-    case "kerület":
+    case "k":
         print(2*(a+b))
-    case "terület":
+    case "t":
         print(a*b)
-    case "átló":
+    case "e":
         print(math.pow(a)*math.pow(a))
