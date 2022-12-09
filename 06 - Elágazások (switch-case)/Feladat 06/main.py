@@ -7,7 +7,7 @@ ertekek:str=None
 print("Adja meg a téglalap oladalainak hosszát és hogy mit szeretne kiszámolni")
 a=int(input())
 b=int(input())
-ertekek=str(input().lower().strip())
+ertekek=str(input()).lower().strip()
 
 
 

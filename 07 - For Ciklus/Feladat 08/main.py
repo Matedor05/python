@@ -1,12 +1,15 @@
-szam1:int=None
-szam2:int=None
+kezd:int=None
+veg:int=None
 eredmeny:int=None
 
-print("Adjon meg egy számot: ",end='')
-szam1=int(input())
-print("Adjon meg egy másik számot: ",end='')
-szam2=int(input())
+print("Adja meg a kezdőértéket: ",end='')
+kezd=int(input())
+print("Adja meg a végértéket: ",end='')
 
-for eredmeny in range(szam1, szam2, 1):
-    if(szam1%2!=0):
+veg=int(input())
+eredmeny=kezd+veg
+for eredmeny in range(kezd, veg, 1):
+    if(kezd%2==0):
+        kezd+=1
         print(eredmeny)
+    

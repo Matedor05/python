@@ -1,12 +1,12 @@
-szam1:int=None
-szam2:int=None
+kezd:int=None
+veg:int=None
 eredmeny:int=None
 
-print("Adjon meg egy számot: ",end='')
-szam1=int(input())
-print("Adjon meg egy másik számot: ",end='')
+print("Adja meg a kezdőértéket: ",end='')
+kezd=int(input())
+print("Adja meg a végértéket: ",end='')
 
-szam2=int(input())
+veg=int(input())
 
-for eredmeny in range(szam1, szam2, -1):
+for eredmeny in range(kezd, veg, -1):
     print(eredmeny)

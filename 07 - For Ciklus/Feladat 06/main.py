@@ -1,2 +1,2 @@
-for szam in range(-11, 12 ,2):
+for szam in range(-11, 11 ,2):
     print(szam)
