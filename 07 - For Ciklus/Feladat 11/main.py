@@ -10,7 +10,7 @@ veg=int(input())
 
 if(kezd%2!=0):
     kezd+=1
-for i in range(kezd, veg, 2):
+for i in range(kezd, veg+1, 2):
     osszeg+=i
     print(i)
 print(osszeg)
