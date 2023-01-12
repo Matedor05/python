@@ -28,3 +28,10 @@ print("Paros:")
 print(result1)
 print("Paratlan:")
 print(result2)
+
+if(result1 > result2):
+    print("a páros számok összegének átlaga a nagyobb")
+elif(result2> result1):
+        print("a páratlan számok összegének átlaga a nagyobb")
+else:
+    print("Az átlagok egyenlőek")
