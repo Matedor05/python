@@ -1,11 +1,14 @@
 number: float = None
 temp: str = None
 isNumber: bool = False
+truncatedString:float=None
+
 
 while(number==None or (number < 0 or number > 9)):
     print("Adjon meg egy számot:",end="")
     temp = input()
-    isNumber = isinstance(temp, (int,float))
+    truncatedString = temp.replace("-","").replace(".","")
+    isNumber = temp.isnumeric()
 
     if(isNumber):
         number = float(temp)
