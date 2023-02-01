@@ -2,7 +2,7 @@ from base64 import encode
 from random import randint
 
 temp:str=None
-number:str=None
+number:int=None
 osszeg:int=0
 db:int=0
 while(osszeg<100):
