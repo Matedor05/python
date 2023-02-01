@@ -1,3 +1,4 @@
+from base64 import encode
 from random import randint
 
 solution:int=None
@@ -5,19 +6,17 @@ tries:int=0
 number:int=None
 temp:str=None
 
-solution=randint(0,9)
-while(tries<=5):
+solution=randint(1,9)
+
+while(tries<5 and solution!=number):
     print("Találja ki a számot:",end="")
     temp = input()
-    if(temp.isnumeric()):
-        number==int(temp)
-    else:
-        continue
-    
-    if(solution==temp):
+    temp.isnumeric()
+    number=int(temp)
+    if(solution == number):
         print("Ön nyert")
     else:
-        number==None
+        tries+=1
 if(tries==5):
     print("Nem nyert")
         

@@ -1,0 +1,18 @@
+from base64 import encode
+from random import randint
+
+temp:str=None
+number:str=None
+osszeg:int=0
+db:int=0
+while(osszeg<100):
+    print("Adjon meg egy számot")
+    temp= input()
+    temp.isnumeric()
+    number=int(temp)
+    osszeg+=number
+    db+=1
+    print(f"A számok összege: {osszeg}")
+    print(f"Próbálkozások száma: {db}")
+if(osszeg>=100):
+    print("{db} lépésben érte el a 100-at")
