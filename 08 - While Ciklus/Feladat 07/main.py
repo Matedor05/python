@@ -3,7 +3,7 @@ tempBig:str=None
 numberSmall:int=None
 numberBig:int=  None
 
-while(numberSmall==None or numberBig==None or numberBig>=numberSmall):
+while(numberSmall==None or numberBig==None or numberBig<=numberSmall):
     print("Adja meg az első számot")
     tempSmall = input()
     print("Adja meg a második számot")
@@ -11,8 +11,6 @@ while(numberSmall==None or numberBig==None or numberBig>=numberSmall):
     if(tempSmall.isnumeric() and tempBig.isnumeric()):
         numberSmall=int(tempSmall)
         numberBig=int(tempBig)
-    else:
-        continue
 print("Számok:")
 for i in range(numberBig, numberSmall-1,-1):
     print(i)
