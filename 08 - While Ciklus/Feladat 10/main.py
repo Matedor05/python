@@ -3,7 +3,7 @@ number:int=None
 osszeg:int=0
 osztas:int=0
 osztas2:int=0
-while(number==None):
+while(number==None or number<9 or number>100 or number%2!=0):
     print("Adjon meg egy kétjegyű pozitív számot!")
     temp=input()
     if(temp.isnumeric):
@@ -15,7 +15,7 @@ print('0 és n közötti számok összege')
 for j in range(0 , number+1 ,1):
     osszeg+=j
 print(osszeg)
-print("11 osztható számok db")
+print("11 osztható számok darabszáma")
 for k in range(1 , number+1 ,1):
     if(k%11==0):
         osztas+=1

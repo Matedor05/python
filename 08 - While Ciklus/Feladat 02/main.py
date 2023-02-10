@@ -6,3 +6,4 @@ while(name==None):
     temp = input().strip()
     if(len(temp)>=2 and temp.isalpha()):
         name=temp
+print(f"Üdvözöljük {name}")
