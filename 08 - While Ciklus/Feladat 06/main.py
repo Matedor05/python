@@ -4,7 +4,7 @@ from random import randint
 temp: str = None
 number: int = None
 while(number==None):
-    print("Adj meg az életkorát!")
+    print("Adja meg az életkorát!")
     temp = input()
     if (temp.isnumeric()):
         number=int(temp)

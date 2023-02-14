@@ -3,6 +3,11 @@ zoldsegleves:bool=None
 husleves:bool=None
 gyumolcsleves:bool=None
 eloetel:int=None
+menu:str=("A mai menü tartama: ")
+ertekeles:str=("")
+
+
+
 
 print("Válasszon előételt!")
 print("1- Zöldségleves")
@@ -13,10 +18,14 @@ eloetel=int(input())
 
 if(eloetel==1):
     zoldsegleves=True
+    menu+="Zöldségleves, "
 elif(eloetel==2):
     husleves=True
+    menu+="Húsleves, "
 elif(eloetel==3):
     gyumolcsleves=True
+    menu+="Gyümölcsleves, "
+
     
     
     
@@ -40,14 +49,19 @@ foetel=int(input())
 
 if(foetel==1):
     sultcsirkecomb=True
+    menu+="Sültcsirkecomb, "
 elif(foetel==2):
     sultcsirkemell=True
+    menu+="Sült csirkemell, "
 elif(foetel==3):
     rakottzoldseg=True
+    menu+="Rakottzöldség, "
 elif(foetel==4):
     spagetti=True
+    menu+="Spagetti, "
 elif(foetel==5):
     pizza=True
+    menu+="Pizza, "
     
     
     
@@ -73,23 +87,34 @@ koret=int(input())
 
 if(koret==1):
     rizs=True
+    menu+="Rizs, "    
 elif(koret==2):
     paroltzoldseg=True
+    menu+="Pároltzöldség, "    
 elif(koret==3):
     gyumolcs=True
+    menu+="Gyümölcs, "    
 elif(koret==4):
     sultkrumpli=True
+    menu+="Sültkrumpli, "    
 elif(koret==5):
     salata=True
+    menu+="Saláta, "   
 elif(koret==6):
     kola=True
+    menu+="Kóla, "   
 
 
 if(eloetel>0 and eloetel<4 and foetel>0 and foetel<6 and koret>0 and koret<7):
     if(zoldsegleves==True and spagetti==True and (salata==True or gyumolcs==True)and (pizza!=True and rakottzoldseg!=True)):
-        print("Kiváló")
+        ertekeles+="A mai menü értékelése: Kiváló"
     elif(zoldsegleves==True and sultcsirkemell==True and sultkrumpli!=True and rizs==True):
-        print("Fitnesz menü")
+        ertekeles+="A mai menü értékelése: Fitnesz menü"
     elif(husleves==True and sultcsirkecomb==True and (sultkrumpli==True and salata==True) and (pizza!=True and rakottzoldseg!=True)):
-        print("Vasárnapi menü")
+        ertekeles+="A mai menü értékelése: Vasárnapi menü"
+    elif(pizza==True or spagetti==True and kola==True and (rakottzoldseg!=True and paroltzoldseg!=True)):
+        ertekeles+="A mai menü értékelése: Napi menü"
+
     
+print(menu)
+print(ertekeles)

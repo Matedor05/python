@@ -11,8 +11,9 @@ solution=randint(1,9)
 while(tries<5 and solution!=number):
     print("Találja ki a számot:",end="")
     temp = input()
-    temp.isnumeric()
-    number=int(temp)
+    if(temp.isnumeric):
+        number = temp()
+
     if(solution == number):
         print("Ön nyert")
     else:

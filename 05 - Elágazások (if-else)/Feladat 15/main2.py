@@ -1,0 +1,1 @@
+print("Szia\nHelló\n")
