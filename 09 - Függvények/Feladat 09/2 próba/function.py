@@ -8,12 +8,7 @@ def getResult(penznem:str, huf:int)->float:
         result=huf*0.0028
     return result
 
-def getEuro(penznem:str, result:float)->float:
+def getEuro(penznem:str, huf:int)->float:
     euro: float = None
-    if(penznem == "jpy"):
-        euro=result*1.4280
-    if(penznem == "jpy"):
-        euro=result*1.4280
-    if(penznem == "jpy"):
-        euro=result*1.4280
+    euro=380
     return euro

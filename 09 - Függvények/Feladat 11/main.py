@@ -16,13 +16,6 @@ workerHours4: int = getHours()
 workerName5: str = getName()
 workerHours5: int = getHours()
 
-
-
-
-
-
-
-
 overtime1=getOvertime(workerHours1, workerName1)
 overtime2=getOvertime(workerHours2, workerName2)
 overtime3=getOvertime(workerHours3, workerName3)
