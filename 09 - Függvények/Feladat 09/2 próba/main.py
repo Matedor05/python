@@ -7,14 +7,11 @@ huf=getHuf()
 penznem: str = None
 penznem=getPenznem()
 
-result:float= None
-result = getResult(penznem, huf)
-
 euro: float = None
-euro=getEuro(penznem, result)
+euro=getEuro(huf)
 
+result: float = None
+result=getResult(penznem, euro)
 
-
-print(f"A megadott összeg ennyinek felel meg {penznem}-ben{result}")
-print(f"A megadott összeg ennyinek felel meg euróban:{euro}")
-
+print(f"A megadott összeg ennyinek felel meg euróban: {euro:1.2f}")
+print(f"A megadott összeg ennyinek felel meg {penznem}-ben: {result:1.2f}")
