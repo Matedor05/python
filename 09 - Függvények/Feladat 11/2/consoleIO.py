@@ -11,7 +11,7 @@ def getHours()->int:
     hour: int = None
     temp: str = None
     truncatedString:float=None
-    while(hour==None):
+    while(hour==None or (hour < 39)):
         print("Adja meg a ledolgozott órák számát!")
         temp = input()
         truncatedString = temp.replace("-","").replace(".","")
