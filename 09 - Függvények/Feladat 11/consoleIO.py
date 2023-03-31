@@ -4,7 +4,8 @@ def getName()->str:
         while(name==None):
                 print("Kérem adja meg a nevét!")
                 inputName = input()
-                name=str(inputName)
+                if(inputName.isalpha()):
+                    name=str(inputName)
         return name.strip().capitalize()
 
 def getHours()->int:
