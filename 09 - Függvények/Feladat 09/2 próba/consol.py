@@ -15,4 +15,4 @@ def getPenznem() -> str:
     while(penznem==None):
         print("Kérem adja meg milyen pénznemet szeretne:\nUsa dollár:[usd]\nSvájci frank[chf]\nJapán jen: [jpy]")
         penznem = input()
-    return penznem.strip().capitalize().lower()
+    return penznem.strip().lower()
