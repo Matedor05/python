@@ -1,27 +1,11 @@
 import random
 
-def getNumber1()->int:
+def getNumber(kezdo:int, vegertek:int)->int:
     number: int = None
     temp: str = None
     truncatedString:float=None
-    while(number==None or (number < 0 or number > 9)):
-        print("Adja meg az első számot 0-9 között: ",end="")
-        temp = input()
-        truncatedString = temp.replace("-","").replace(".","")
-        if(temp.isnumeric):
-            number=int(truncatedString)
-        else:
-            print("Nem számot adott meg!")
-    return number
-
-
-
-def getNumber2()->int:
-    number: int = None
-    temp: str = None
-    truncatedString:float=None
-    while(number==None or (number < 40 or number > 50)):
-        print("Adja meg az első számot 40-50 között: ",end="")
+    while(number==None or (number < kezdo or number > vegertek)):
+        print(f"Adja meg az első számot {kezdo} és {vegertek} között: ",end="")
         temp = input()
         truncatedString = temp.replace("-","").replace(".","")
         if(temp.isnumeric):

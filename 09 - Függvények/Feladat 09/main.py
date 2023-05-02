@@ -15,6 +15,6 @@ euro=getEuro(penznem, result)
 
 
 
-print(f"{result}")
-print(f"{euro}")
+print(f"A megadott összeg ennyinek felel meg {penznem}-ben{result}")
+print(f"A megadott összeg ennyinek felel meg euróban:{euro}")
 

@@ -15,12 +15,11 @@ result = sumOfTwoNumbers(x, y)
 printToConsole(x, y, result, "+")
 
 result = differenceOfTwoNumbers(x, y)
-printToConsole(x, y, result "-")
+printToConsole(x, y, result, "-")
 
 result = multiplicationOfTwoNumbers(x, y)
-printToConsole(x, y, result "*")
+printToConsole(x, y, result, "*" )
 
 result = divisionOfTwoNumbers(x, y)
-printToConsole(x, y, result "/")
-
+printToConsole(x, y, result, "/" )
 

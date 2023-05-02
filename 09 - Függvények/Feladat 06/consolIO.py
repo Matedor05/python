@@ -7,11 +7,13 @@ def getTemp() -> int:
         if(temp.isnumeric):
             temperature=int(temp)
     return temperature
+
+
 def getMertekegyseg() -> str:
     mertekegyseg : str = None
     while(mertekegyseg==None or len(mertekegyseg)>=2):
         print("Kérem adja meg milyen mértékegységet szeretne:\nKelvin:[K]\nFahrenheit[F]")
         mertekegyseg = input()
-    return mertekegyseg
+    return mertekegyseg.upper()
 
 
