@@ -1,7 +1,6 @@
 from videokartya import Videokartya
 from processzor import Processzor
 from computer import Pc
-from tápegység import Tapegyseg
 
 video: Videokartya = Videokartya()
 video.gyarto = "Asus"
@@ -13,13 +12,10 @@ proci.gyarto = "Intel"
 proci.tipus = "Intel Core i5-13600K"
 proci.fogyasztas = "125 W"
 
-tap: Tapegyseg = Tapegyseg()
-tap.gyarto = "GIGABYTE"
-tap.tipus = "GIGABYTE AORUS P750W"
-tap.teljesitmeny = "750 W"
-
-computer: Pc = Pc(video, proci, tap)
+computer: Pc = Pc()
 computer.tulajdonos = "Karasz Máté"
+computer.videokartya = videokartya.
+computer.processzor = Processzor()
 
 print(f"{computer}")
 
