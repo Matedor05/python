@@ -1,8 +1,8 @@
-from negyzet import Negyzet
+from telefon import Telefon
 
-alakzat: Negyzet = Negyzet(10)
+mobil: Telefon = Telefon(10)
 
 
 
-print(type(Negyzet))
+print(type())
 
