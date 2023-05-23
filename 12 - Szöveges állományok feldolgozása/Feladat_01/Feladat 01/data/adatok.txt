@@ -1,4 +1,4 @@
-Antalfai Martin	3,53
+Antalfai Martin	5,00
 Balogh R�bert Lajos	3,63
 Csavar Istv�n	2,88
 Csom�s Em�lia Krisztina	3,19
@@ -20,6 +20,6 @@ Szil�gyi Beatrix	3,50
 Szoboszlai Norbert	2,23
 Tar Vikt�ria	4,03
 T�th Martin M�ty�s	2,83
-Ungor D�vid Erik	2,79
+Ungor D�vid Erik	3,00
 Varga L�szl� Kriszti�n	3,31
 Vizi Viktor P�ter	3,83

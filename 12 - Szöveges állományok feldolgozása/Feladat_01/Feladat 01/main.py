@@ -27,6 +27,9 @@ aboveAvarage:List[Student] = studentAboveAvarage(students,classAvarage)
 writeStudentsInFile(aboveAvarage, "atlagfelett.txt")
 
 # 6 - Van e kitünő tanulónk?
+kituno:str=studentKituno(students)
+print(kituno)
+
 # 7 - Hány elégtelen, elégséges, jó, jeles és kitünő tanuló van az osztályban?
 #     Értékhatárok:
 # 	- elégtelen, ha: 0.00 - 1.99

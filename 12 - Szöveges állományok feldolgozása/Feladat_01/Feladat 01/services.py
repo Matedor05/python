@@ -24,3 +24,13 @@ def studentAboveAvarage(students: List[Student],classAvarage:float)->List[Studen
             aboveAvarage.append(student)
 
     return aboveAvarage
+
+def studentKituno(students: List[Student])->str:
+    kituno:str=None
+    for student in students:
+        while(student.avarage!=5 or kituno==None):
+            kituno=="Van"
+        else:
+            kituno=="Nincs"
+    return kituno
+            
