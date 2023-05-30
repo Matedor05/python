@@ -25,12 +25,20 @@ def studentAboveAvarage(students: List[Student],classAvarage:float)->List[Studen
 
     return aboveAvarage
 
-def studentKituno(students: List[Student])->str:
-    kituno:str=None
+def studentKituno(students: List[Student])->bool:
+    kituno:bool=False
     for student in students:
-        while(student.avarage!=5 or kituno==None):
-            kituno=="Van"
-        else:
-            kituno=="Nincs"
+        if(student.avarage==5):
+            kituno=True
+            break
+    return kituno
+            
+def studentGrades(students: List[Student])->List[Student]:
+    kituno:int=None
+    for student in students:
+        if(student.avarage==5):
+            kituno+=st
+            break
+        elif():
     return kituno
             
