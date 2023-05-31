@@ -15,4 +15,4 @@ class Konyv():
         self.honorarium:float=0 
     
     def __str__(self) -> str:
-        return f"{self.vezeteknev} {self.keresztnev} ({self.szuletesiDatum}) - {self.cim} ({self.iSBN}) {self.kiado} [{self.kiadvasiEv}] ár:{self.ar} Ft, témája:{self.tema}, oldaszáma:{self.oldalszam}, honoránium:{self.honorarium} Ft "
+        return f"{self.vezeteknev} {self.keresztnev} ({self.szuletesiDatum}) - {self.cim} ({self.iSBN}) {self.kiado} [{self.kiadvasiEv}] ár:{self.ar} Ft, honoránium:{self.honorarium} Ft,  témája:{self.tema}, oldaszáma:{self.oldalszam}"
