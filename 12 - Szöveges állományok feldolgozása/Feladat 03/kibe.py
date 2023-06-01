@@ -2,7 +2,7 @@ from kezilabdas import *
 from typing import *
 import os
 def fajlOlvasas()->List[Kezilabdas]:
-    fajlnev:str= "/data/adatok.txt"
+    fajlnev:str= "data/adatok.txt"
     alaput:str=os.path.dirname(os.path.abspath(__file__))
     teljesut:str=os.path.join(alaput,fajlnev)
     kezilabdasok:List[Kezilabdas]=[]
@@ -21,4 +21,20 @@ def fajlOlvasas()->List[Kezilabdas]:
                 kezilabdas.nev = egyseg[0]
                 kezilabdas.orszag = egyseg[5]
                 kezilabdas.poszt = egyseg[2]
-                
+                kezilabdasok.append(kezilabdas)
+            return kezilabdasok
+    except FileNotFoundError as ex:
+        print(f"{ex.filename} nem található!")
+        return []
+
+def fajlKiiras(kezilabdasok:List[Kezilabdas],fajlNev:str)->None:
+    alaput:str=os.path.dirname(os.path.abspath(__file__))
+    alaput += "/output/"
+    teljesUt:str=os.path.join(alaput,fajlNev)
+    # try:
+    with open(teljesUt,encoding="utf-8",mode="w",) as file:
+        for jatekosok in kezilabdasok:
+            file.write(f"{jatekosok}\n")
+        
+    # except FileNotFoundError as ex:
+    #     print(f"{ex.filename} fájlal valami nyűg van")
