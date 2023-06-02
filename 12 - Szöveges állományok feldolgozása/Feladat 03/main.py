@@ -12,8 +12,11 @@ utoJatekos:List[Kezilabdas]=temaKereses(Kezilabdasok ,"ütő")
 fajlKiiras(utoJatekos,"utok.txt")
 
 # - A csapattagok.txt állományba mentsük a csapatokat és a hozzájuk tartozó játékosokat a következő formában:
-#   Telekom Baku: Yelizaveta Mammadova,Yekaterina Gamova,
+getMagassagszerint(Kezilabdasok)
+fajlKiiras(getMagassagszerint,"magaslatok.txt")
+
 # - Rendezzük a játékosokat magasság szerint növekvő sorrendbe és a magaslatok.txt állományba mentsük el.
+
 # - Mutassuk be a nemzetisegek.txt állományba, hogy mely nemzetiségek képviseltetik magukat a röplabdavilágban mint játékosok és milyen számban.
 # - atlagnalmagasabbak.txt állományba keressük azon játékosok nevét és magasságát akik magasabbak mint az „adatbázisban” szereplő játékosok átlagos magasságánál.
 # - Állítsa növekvő sorrendbe a posztok szerint a játékosok ösz magasságát

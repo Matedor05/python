@@ -1,0 +1,16 @@
+Név:Katarzyna Skowro�ska-Dolata, magasság:189 cm, poszt:ütő, nemzetiség:lengyel, csapat:Imoco Volley, ország:Olaszorsz�g
+Név:Francesca Piccinini, magasság:184 cm, poszt:ütő, nemzetiség:olasz, csapat:Partizan, ország:Szerbia
+Név:Jaqueline Carvalho, magasság:186 cm, poszt:ütő, nemzetiség:brazil, csapat:Crvena Zvezda, ország:Szerbia
+Név:Robin de Kruijf, magasság:193 cm, poszt:ütő, nemzetiség:holland, csapat:Asystel Novara, ország:Lengyelorsz�g
+Név:Bodn�r Dorottya, magasság:185 cm, poszt:ütő, nemzetiség:magyar, csapat:Imoco Volley, ország:Olaszorsz�g
+Név:Malgorzata Glinka-Mogentale, magasság:191 cm, poszt:ütő, nemzetiség:lengyel, csapat:AGIL Volley, ország:Olaszorsz�g
+Név:Jovana Brakocevic, magasság:196 cm, poszt:ütő, nemzetiség:szerb, csapat:Fatum Ny�regyh�za, ország:Magyarorsz�g
+Név:Ivana �erisilo, magasság:185 cm, poszt:ütő, nemzetiség:szerb, csapat:Crvena Zvezda, ország:Szerbia
+Név:Yekaterina Gamova, magasság:202 cm, poszt:ütő, nemzetiség:orosz, csapat:Telekom Baku, ország:Azerbajdzs�n
+Név:Logan Tom, magasság:186 cm, poszt:ütő, nemzetiség:amerikai, csapat:Rabita Baku, ország:Azerbajdzs�n
+Név:Marianne Steinbrecher, magasság:188 cm, poszt:ütő, nemzetiség:brazil, csapat:Fenerbah�e Acibadem, ország:T�r�korsz�g
+Név:Lioubov Sokolova Kili�, magasság:192 cm, poszt:ütő, nemzetiség:orosz, csapat:Asystel Novara, ország:Lengyelorsz�g
+Név:Gabrielle Reece, magasság:191 cm, poszt:ütő, nemzetiség:amerikai, csapat:Crvena Zvezda, ország:Szerbia
+Név:Tha�sa Menezes, magasság:196 cm, poszt:ütő, nemzetiség:brazil, csapat:Fatum Ny�regyh�za, ország:Magyarorsz�g
+Név:Cristina Chirichella, magasság:195 cm, poszt:ütő, nemzetiség:olasz, csapat:AGIL Volley, ország:Olaszorsz�g
+Név:Nikola Radosov�, magasság:186 cm, poszt:ütő, nemzetiség:szlov�k, csapat:FATUM Ny�regyh�za, ország:Magyarorsz�g
